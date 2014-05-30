@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		609531270EC569FA26128F87 /* MTJSONToNSObjectParser.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 60953108DBED047246D7E16D /* MTJSONToNSObjectParser.h */; };
+		609533B2FDC7603A31C612BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60953C29D287CCFE7952103B /* UIKit.framework */; };
+		6095372D8F9402BF720D5269 /* libMTJSONToNSObjectParser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 609531D65C3E530A1432CBA6 /* libMTJSONToNSObjectParser.a */; };
+		6095372DED567512B6ACAAF9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 609538E12DA9C0CD81FD3C7A /* XCTest.framework */; };
+		609538F62A485CA6DB9A2154 /* MTJSONToNSObjectParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60953FEA826A97471D83E642 /* MTJSONToNSObjectParserTests.m */; };
+		60953A9ED84E8FEA5507CEE8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60953FE6E447426C11285970 /* InfoPlist.strings */; };
+		60953B58851DA38F35DDE49A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 609530EE1F52F3C20D2CDF04 /* Foundation.framework */; };
+		60953CD5F3DC6A6FFE89A20B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 609530EE1F52F3C20D2CDF04 /* Foundation.framework */; };
+		60953F24F706B3E147CCC100 /* MTJSONToNSObjectParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 609533CA6AF8EE6D7AE720E0 /* MTJSONToNSObjectParser.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60953CA39A344C490E43B459 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6095339E331F5940805F58B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 609531D01A53E480CAC3BA91;
+			remoteInfo = MTJSONToNSObjectParser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		609539BEF82BA6AE3BD7485F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				609531270EC569FA26128F87 /* MTJSONToNSObjectParser.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		609530EE1F52F3C20D2CDF04 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		60953108DBED047246D7E16D /* MTJSONToNSObjectParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTJSONToNSObjectParser.h; sourceTree = "<group>"; };
+		609531D65C3E530A1432CBA6 /* libMTJSONToNSObjectParser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMTJSONToNSObjectParser.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		609533CA6AF8EE6D7AE720E0 /* MTJSONToNSObjectParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTJSONToNSObjectParser.m; sourceTree = "<group>"; };
+		60953679C54B58547117C684 /* MTJSONToNSObjectParserTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "MTJSONToNSObjectParserTests-Info.plist"; sourceTree = "<group>"; };
+		6095372C825C34D0AAF1CF5C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		60953850493BCBF068B45ECF /* MTJSONToNSObjectParserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTJSONToNSObjectParserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		609538E12DA9C0CD81FD3C7A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		60953AB0A644B5489073A4EE /* MTJSONToNSObjectParser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MTJSONToNSObjectParser-Prefix.pch"; sourceTree = "<group>"; };
+		60953C29D287CCFE7952103B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		60953FEA826A97471D83E642 /* MTJSONToNSObjectParserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTJSONToNSObjectParserTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		609534F7692509B08EB2409C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60953CD5F3DC6A6FFE89A20B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60953C4F7CE087841352D5F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6095372DED567512B6ACAAF9 /* XCTest.framework in Frameworks */,
+				60953B58851DA38F35DDE49A /* Foundation.framework in Frameworks */,
+				609533B2FDC7603A31C612BC /* UIKit.framework in Frameworks */,
+				6095372D8F9402BF720D5269 /* libMTJSONToNSObjectParser.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		609530A8806F4B2DF8C0B0CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				60953679C54B58547117C684 /* MTJSONToNSObjectParserTests-Info.plist */,
+				60953FE6E447426C11285970 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		609532FE8C425CBCF2D6B53B /* MTJSONToNSObjectParserTests */ = {
+			isa = PBXGroup;
+			children = (
+				609530A8806F4B2DF8C0B0CB /* Supporting Files */,
+				60953FEA826A97471D83E642 /* MTJSONToNSObjectParserTests.m */,
+			);
+			path = MTJSONToNSObjectParserTests;
+			sourceTree = "<group>";
+		};
+		6095342AD4FFFB051E24CD43 = {
+			isa = PBXGroup;
+			children = (
+				609537C72EB88D35D51543FC /* Products */,
+				6095358AA13F6DAD00255273 /* Frameworks */,
+				609535AFF41ED6E40AE1EAD3 /* MTJSONToNSObjectParser */,
+				609532FE8C425CBCF2D6B53B /* MTJSONToNSObjectParserTests */,
+			);
+			sourceTree = "<group>";
+		};
+		6095358AA13F6DAD00255273 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				609530EE1F52F3C20D2CDF04 /* Foundation.framework */,
+				609538E12DA9C0CD81FD3C7A /* XCTest.framework */,
+				60953C29D287CCFE7952103B /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		609535AFF41ED6E40AE1EAD3 /* MTJSONToNSObjectParser */ = {
+			isa = PBXGroup;
+			children = (
+				60953FDD587E18A7801C6AA4 /* Supporting Files */,
+				60953108DBED047246D7E16D /* MTJSONToNSObjectParser.h */,
+				609533CA6AF8EE6D7AE720E0 /* MTJSONToNSObjectParser.m */,
+			);
+			path = MTJSONToNSObjectParser;
+			sourceTree = "<group>";
+		};
+		609537C72EB88D35D51543FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				609531D65C3E530A1432CBA6 /* libMTJSONToNSObjectParser.a */,
+				60953850493BCBF068B45ECF /* MTJSONToNSObjectParserTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60953FDD587E18A7801C6AA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				60953AB0A644B5489073A4EE /* MTJSONToNSObjectParser-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		609531D01A53E480CAC3BA91 /* MTJSONToNSObjectParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 609533E7AA27323DD04CE163 /* Build configuration list for PBXNativeTarget "MTJSONToNSObjectParser" */;
+			buildPhases = (
+				609531392D5F93C16BA63B70 /* Sources */,
+				609534F7692509B08EB2409C /* Frameworks */,
+				609539BEF82BA6AE3BD7485F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MTJSONToNSObjectParser;
+			productName = MTJSONToNSObjectParser;
+			productReference = 609531D65C3E530A1432CBA6 /* libMTJSONToNSObjectParser.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		60953D0306877A52D91ADB24 /* MTJSONToNSObjectParserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60953775A591D69F3C2200BC /* Build configuration list for PBXNativeTarget "MTJSONToNSObjectParserTests" */;
+			buildPhases = (
+				60953990C7776A44B8344784 /* Sources */,
+				60953C4F7CE087841352D5F6 /* Frameworks */,
+				609536418A102EFFF291EA1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60953B3A44BEEA6864849886 /* PBXTargetDependency */,
+			);
+			name = MTJSONToNSObjectParserTests;
+			productName = MTJSONToNSObjectParserTests;
+			productReference = 60953850493BCBF068B45ECF /* MTJSONToNSObjectParserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6095339E331F5940805F58B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+			};
+			buildConfigurationList = 60953313A2C1A9F83C28FA76 /* Build configuration list for PBXProject "MTJSONToNSObjectParser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6095342AD4FFFB051E24CD43;
+			productRefGroup = 609537C72EB88D35D51543FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				609531D01A53E480CAC3BA91 /* MTJSONToNSObjectParser */,
+				60953D0306877A52D91ADB24 /* MTJSONToNSObjectParserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		609536418A102EFFF291EA1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60953A9ED84E8FEA5507CEE8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		609531392D5F93C16BA63B70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60953F24F706B3E147CCC100 /* MTJSONToNSObjectParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60953990C7776A44B8344784 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				609538F62A485CA6DB9A2154 /* MTJSONToNSObjectParserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60953B3A44BEEA6864849886 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 609531D01A53E480CAC3BA91 /* MTJSONToNSObjectParser */;
+			targetProxy = 60953CA39A344C490E43B459 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		60953FE6E447426C11285970 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6095372C825C34D0AAF1CF5C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6095325579EB650B95F9A410 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/MTJSONToNSObjectParser.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MTJSONToNSObjectParser/MTJSONToNSObjectParser-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		60953445572D0960CDA89FD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/MTJSONToNSObjectParser.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MTJSONToNSObjectParser/MTJSONToNSObjectParser-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		60953549B8870C21B523B165 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MTJSONToNSObjectParser/MTJSONToNSObjectParser-Prefix.pch";
+				INFOPLIST_FILE = "MTJSONToNSObjectParserTests/MTJSONToNSObjectParserTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		60953B788B9EFD6838B534CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60953DAD666774FF161E9034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MTJSONToNSObjectParser/MTJSONToNSObjectParser-Prefix.pch";
+				INFOPLIST_FILE = "MTJSONToNSObjectParserTests/MTJSONToNSObjectParserTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		60953FF8141590659EE4B640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60953313A2C1A9F83C28FA76 /* Build configuration list for PBXProject "MTJSONToNSObjectParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60953FF8141590659EE4B640 /* Debug */,
+				60953B788B9EFD6838B534CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		609533E7AA27323DD04CE163 /* Build configuration list for PBXNativeTarget "MTJSONToNSObjectParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6095325579EB650B95F9A410 /* Debug */,
+				60953445572D0960CDA89FD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		60953775A591D69F3C2200BC /* Build configuration list for PBXNativeTarget "MTJSONToNSObjectParserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60953549B8870C21B523B165 /* Debug */,
+				60953DAD666774FF161E9034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6095339E331F5940805F58B1 /* Project object */;
+}
